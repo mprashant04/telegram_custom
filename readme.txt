@@ -1,6 +1,8 @@
 code copied from https://github.com/DrKLO/Telegram with following updates to them
-
 after code changes, using scripts in "my_build_scripts" for building apk
+
+
+(all code changes are prefixed with TODO-PM note/comment)
 
 
 generate ap_id and and api_hash from https://my.telegram.org/apps, and config in BuildVars.java  
