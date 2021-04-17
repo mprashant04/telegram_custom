@@ -7,5 +7,7 @@ setup-1.sh : run with git bash
 setup-2bat : run on windows command prompt
 ----------------------------------------------------
 
-then run compile.bat to create APk in <source>\TMessagesProj\build\outputs\apk folder
+then run build_apk.bat to create APk in <source>\TMessagesProj\build\outputs\apk folder
 (first compile run will take 1-2 hours)
+
+(use amd64 folder apk for one plus one 7 pro)
