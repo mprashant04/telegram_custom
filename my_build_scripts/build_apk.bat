@@ -18,7 +18,7 @@ rem echo %ANDROID_NDK_HOME%
 
 
 call gradle assembleRelease
-#call gradle assembleStandalone
+REM call gradle assembleStandalone
 
 
 cd %ORIGINAL_FOLDER%
