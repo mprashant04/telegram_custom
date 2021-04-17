@@ -1,6 +1,8 @@
 echo ============================= started ============================================
 
 echo setting environment variables...
+
+# /d means D:\ drive
 ROOT=/d/t1
 ANDROID_SDK_URL=https://dl.google.com/android/repository/sdk-tools-windows-3859397.zip
 #ANDROID_SDK_URL=https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip

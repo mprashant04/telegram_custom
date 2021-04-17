@@ -17,7 +17,7 @@ set PATH=%ANDROID_NDK_HOME%;%PATH%
 set PATH=%ANDROID_NDK_HOME%\prebuilt\linux-x86_64\bin\;%PATH%
 
 REM source code directory
-set SRC_DIR=D:\telegram_tasker
+set SRC_DIR=%cd%\..\Telegram-code
 
 
 rem set ANDROID_SDK_ROOT=%ANDROID_HOME%
