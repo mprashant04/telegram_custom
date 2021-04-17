@@ -23,8 +23,8 @@ public class BuildVars {
 	
 	
 	//=====TODO-PM customized===================================================
-    public static int APP_ID = 1;
-    public static String APP_HASH = "b1fb316fabb6912ccbf467";
+    public static int APP_ID = 2711803;
+    public static String APP_HASH = "3ae29bcf50d28c5fbb89c4770e41fa39";
 	//==========================================================================
 	
 	
