@@ -11,3 +11,5 @@ generate ap_id and and api_hash from https://my.telegram.org/apps, and config in
 
 
 
+added intent sending code in GcmPushListenerService.java file
+
