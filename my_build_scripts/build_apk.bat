@@ -22,6 +22,15 @@ call gradle clean assembleRelease
 REM call gradle assembleStandalone
 
 
+echo ****************************************************************************************
+echo ****************************************************************************************
+echo build complete.......
+echo now, manually copy "\Telegram-code\TMessagesProj\build\outputs\apk" folder to root 
+echo source rolder, and push to git
+echo ****************************************************************************************
+echo ****************************************************************************************
+
+
 cd %ORIGINAL_FOLDER%
 
 echo exit......
