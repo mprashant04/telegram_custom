@@ -16,7 +16,10 @@ cd %SRC_DIR%
 REM echo %ANDROID_HOME%
 rem echo %ANDROID_NDK_HOME%
 
+echo cleaning....
+call gradle clean
 
+echo building....
 call gradle assembleRelease
 REM call gradle assembleStandalone
 
