@@ -13,3 +13,6 @@ generate ap_id and and api_hash from https://my.telegram.org/apps, and config in
 
 added intent sending code in GcmPushListenerService.java file
 
+
+in TMessagesProj\build.gradle, commented out unnecessary product flavors to speed up compilation, later enable selectively when required for new phone model
+(for oneplus 7 pro phone, 'arm64' profile required)

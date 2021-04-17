@@ -5,10 +5,11 @@ Set ORIGINAL_FOLDER=%cd%
 
 call common_init_env.bat
 
+echo source folder = %SRC_DIR%
 
 
-if not exist "%SRC_DIR%\TMessagesProj\build\outputs\apk" mkdir %SRC_DIR%\TMessagesProj\build\outputs\apk
-if not exist "%SRC_DIR%\TMessagesProj\build\outputs\native-debug-symbols" mkdir %SRC_DIR%\TMessagesProj\build\outputs\native-debug-symbols
+rem if not exist "%SRC_DIR%\TMessagesProj\build\outputs\apk" mkdir %SRC_DIR%\TMessagesProj\build\outputs\apk
+rem if not exist "%SRC_DIR%\TMessagesProj\build\outputs\native-debug-symbols" mkdir %SRC_DIR%\TMessagesProj\build\outputs\native-debug-symbols
 
 cd %SRC_DIR%
 
