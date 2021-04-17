@@ -21,7 +21,6 @@ rem echo %ANDROID_NDK_HOME%
 call gradle clean assembleRelease
 REM call gradle assembleStandalone
 
-copy %SRC_DIR%\TMessagesProj\build\outputs\apk  %SRC_DIR%
 
 cd %ORIGINAL_FOLDER%
 
