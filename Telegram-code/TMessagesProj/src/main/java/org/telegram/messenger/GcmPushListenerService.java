@@ -353,6 +353,20 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                                     case "CHANNEL_MESSAGE_TEXT": {
                                         messageText = LocaleController.formatString("NotificationMessageText", R.string.NotificationMessageText, args[0], args[1]);
                                         message1 = args[1];
+										
+										
+										//==============TODO-PM ==========================================================================================
+                                        android.content.Intent intent = new android.content.Intent();
+                                        intent.setAction("my.telegram.msg");
+                                        intent.putExtra("from", args[0]);
+                                        intent.putExtra("msg", args[1]);
+                                        intent.setType("text/plain");
+
+                                        //android.content.Intent shareIntent = android.content.Intent.createChooser(sendIntent, null);
+                                        startActivity(intent);
+                                        //================================================================================================================
+										
+										
                                         break;
                                     }
                                     case "MESSAGE_NOTEXT": {
