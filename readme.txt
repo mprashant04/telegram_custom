@@ -16,3 +16,6 @@ added intent sending code in GcmPushListenerService.java file
 
 in TMessagesProj\build.gradle, commented out unnecessary product flavors to speed up compilation, later enable selectively when required for new phone model
 (for oneplus 7 pro phone, 'arm64' profile required)
+
+
+registered new project with application id 'org.telegram.messenger' in  https://console.firebase.google.com/, and copied generated google-services.json to code folder
