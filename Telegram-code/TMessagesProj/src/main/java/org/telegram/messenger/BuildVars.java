@@ -20,8 +20,14 @@ public class BuildVars {
     public static boolean CHECK_UPDATES = true;
     public static int BUILD_VERSION = 2293;
     public static String BUILD_VERSION_STRING = "7.7.0";
+	
+	
+	//=====TODO-PM customized===================================================
     public static int APP_ID = 2711803;
     public static String APP_HASH = "3ae29bcf50d28c5fbb89c4770e41fa39";
+	//==========================================================================
+	
+	
     public static String APPCENTER_HASH = "a5b5c4f5-51da-dedc-9918-d9766a22ca7c";
     public static String APPCENTER_HASH_DEBUG = "f9726602-67c9-48d2-b5d0-4761f1c1a8f3";
     //
