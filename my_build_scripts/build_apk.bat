@@ -18,7 +18,7 @@ rem echo %ANDROID_NDK_HOME%
 
 
 
-rem call gradle clean assembleRelease
+call gradle clean assembleRelease
 REM call gradle assembleStandalone
 
 
