@@ -361,9 +361,8 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                                         intent.putExtra("from", args[0]);
                                         intent.putExtra("msg", args[1]);
                                         intent.setType("text/plain");
-
-                                        //android.content.Intent shareIntent = android.content.Intent.createChooser(sendIntent, null);
-                                        startActivity(intent);
+                                        
+                                        sendBroadcast(intent);
                                         //================================================================================================================
 										
 										
