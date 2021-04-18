@@ -23,7 +23,7 @@ REM call gradle assembleStandalone
 
 
 timeout 10 >nul
-xcopy /y %SRC_DIR%\Telegram-code\build\outputs\apk\arm64\release\app.apk   %SRC_DIR%\apk\
+xcopy /y %SRC_DIR%\TMessagesProj\build\outputs\apk\arm64\release\app.apk   %SRC_DIR%\..\apk\
 rem echo ****************************************************************************************
 rem echo ****************************************************************************************
 rem echo build complete.......
