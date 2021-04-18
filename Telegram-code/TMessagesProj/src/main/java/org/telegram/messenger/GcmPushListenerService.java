@@ -360,7 +360,7 @@ public class GcmPushListenerService extends FirebaseMessagingService {
                                         intent.setAction("org.telegram.messenger.TELE_MSG");
                                         intent.putExtra("from", args[0]);
                                         intent.putExtra("msg", args[1]);
-                                        intent.setType("text/plain");
+                                        //intent.setType("text/plain");
                                         
                                         sendBroadcast(intent);
                                         //================================================================================================================
