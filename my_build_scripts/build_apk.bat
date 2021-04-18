@@ -22,7 +22,7 @@ call gradle clean assembleRelease
 REM call gradle assembleStandalone
 
 
-
+cp %SRC_DIR%\Telegram-code\build\output\apk\arm64\release   %SRC_DIR%\apk
 echo ****************************************************************************************
 echo ****************************************************************************************
 echo build complete.......
