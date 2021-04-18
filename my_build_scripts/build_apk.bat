@@ -18,17 +18,19 @@ rem echo %ANDROID_NDK_HOME%
 
 
 
-call gradle clean assembleRelease
+rem call gradle clean assembleRelease
 REM call gradle assembleStandalone
 
 
-echo ****************************************************************************************
-echo ****************************************************************************************
-echo build complete.......
-echo now, manually copy "\Telegram-code\TMessagesProj\build\outputs\apk" folder to root 
-echo source rolder, and push to git
-echo ****************************************************************************************
-echo ****************************************************************************************
+
+move %SRC_DIR%\TMessagesProj\build\outputs\apk  %SRC_DIR%\
+rem echo ****************************************************************************************
+rem echo ****************************************************************************************
+rem echo build complete.......
+rem echo now, manually copy "\Telegram-code\TMessagesProj\build\outputs\apk" folder to root 
+rem echo source rolder, and push to git
+rem echo ****************************************************************************************
+rem echo ****************************************************************************************
 
 
 cd %ORIGINAL_FOLDER%
