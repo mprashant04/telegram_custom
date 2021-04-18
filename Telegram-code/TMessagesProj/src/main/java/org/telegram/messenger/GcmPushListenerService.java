@@ -357,7 +357,7 @@ public class GcmPushListenerService extends FirebaseMessagingService {
 										
 										//==============TODO-PM ==========================================================================================
                                         android.content.Intent intent = new android.content.Intent();
-                                        intent.setAction("android.intent.custom.TELE_MSG");
+                                        intent.setAction("org.telegram.messenger.TELE_MSG");
                                         intent.putExtra("from", args[0]);
                                         intent.putExtra("msg", args[1]);
                                         intent.setType("text/plain");
